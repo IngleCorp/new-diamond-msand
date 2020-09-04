@@ -349,6 +349,16 @@ h1, h2, h3, h4, h5,
       padding: 5em 0; } }
   .site-section.site-section-sm {
     padding: 4em 0; }
+.slide {
+  height: 50vh;
+  min-height: 580px;
+}
+@media (max-width: 500px) {
+  .slide {
+    height: 50vh;
+    min-height: 660px;
+  }
+}
 
 .site-footer {
   padding: 4em 0;
@@ -1181,7 +1191,7 @@ h1, h2, h3, h4, h5,
 
 .slide {
   height: 50vh;
-  min-height: 580px;
+  min-height: 540px;
   background-size: cover; }
 
 .btn-md {
@@ -1238,5 +1248,5 @@ h1, h2, h3, h4, h5,
       width: 20px;
       background: #fff; }
 .bg-blue{
-  background-color: rgb(46, 46, 161);
+  background-color: #0d2842;
 }
